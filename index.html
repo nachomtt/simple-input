@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Input</title>
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <button id="configButton">&#9881;</button>
+        <div id="configMenu" class="config-menu hidden">
+            <label for="fontSize">Font Size:</label>
+            <input type="number" id="fontSize" min="10" max="100">
+
+            <label for="fontColor">Font Color:</label>
+            <input type="color" id="fontColor">
+
+            <label for="navbarColor">NavBar Color:</label>
+            <input type="color" id="navbarColor">
+            
+            <label for="textareaBgColor">Input Background:</label>
+            <input type="color" id="textareaBgColor">
+
+            <label for="textareaBorderColor">Input Border:</label>
+            <input type="color" id="textareaBorderColor">
+
+            <label for="bodyBgColor">Page Background:</label>
+            <input type="color" id="bodyBgColor">
+
+            <button class="button-31" id="resetButton">Reset</button>
+        </div>
+    </nav>
+
+    <div class="input-container">
+        <textarea id="textArea" placeholder="ここにテキストを入力してください" rows="2" cols="50"></textarea>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
