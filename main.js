@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.backgroundColor = 'rgb(13, 13, 13)';
 
         fontSizeInput.value = '';
-        fontColorInput.value = 'black';
+        fontColorInput.value = '#000000';
         navbarColorInput.value = '#121212'
         textareaBgColorInput.value = '#bababa';
         textareaBorderColorInput.value = '#ffa500';
